@@ -10,24 +10,24 @@ h1{
     text-align: center;
 }
 
-h2{
-    background-color: yellow;
-    margin: 20px auto;
-}
-
 .login{
     background-color: rgb(192, 192, 192);
     width: 950px;
     height: 450px;
     padding: 40px;
     margin: 20px auto;
+    position: relative;
 
 }
 
 .login h2{
+    font: bold italic 2em Georgia, Times, "Times New Roman", serif;
     text-align: center;
-    color: black;   
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
 }
+
+
 
 .txtUsername, .txtPassword{
     text-align: center;
@@ -36,4 +36,11 @@ h2{
 .login-button{
     background-color: white;
     margin-top: 20px;
+}
+
+.register-button{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    
 }
