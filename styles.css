@@ -1,7 +1,7 @@
 /* Para index.html, LOG IN */
 .body-login{
-    background-color: rgb(32, 32, 32);
-
+    background-image: url("login_img.jpg");
+    /* background-color: rgb(32, 32, 32); */
 }
 
 h1{
@@ -11,12 +11,12 @@ h1{
 }
 
 .login{
-    background-color: rgb(192, 192, 192);
-    width: 950px;
-    height: 450px;
+    width: 500px;
+    height: 250px;
     padding: 40px;
     margin: 20px auto;
     position: relative;
+    background-color: aliceblue;
 
 }
 
@@ -42,5 +42,21 @@ h1{
     bottom: 0;
     right: 0;
     position: absolute;
+    display: inline-block;
+    margin: 10px;
     
 }
+
+input{
+    border-radius: 25px;
+    text-align: center;
+}
+
+.guest-button{
+    bottom: 3em;
+    right: 0;
+    position: absolute;
+    margin: 10px;
+
+}
+
