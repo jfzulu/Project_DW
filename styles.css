@@ -1,6 +1,19 @@
 /* Para index.html, LOG IN */
+.body-login{
+    background-color: rgb(32, 32, 32);
+
+}
+
+h1{
+    color: white;
+    text-align: right;
+}
+
 .login{
-    display: inline-block;
-    border: solid;
-    text-align: center;
+    background-color: rgb(80, 200, 70);
+    width: 950px;
+    height: 450px;
+    padding: 40px;
+    margin: 20px auto;
+
 }
